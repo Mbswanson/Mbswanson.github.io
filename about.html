@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://getbootstrap.com/examples/starter-template/#about -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://ih0.redbubble.net/image.192363793.2652/sticker,220x200-pad,220x200,ffffff.u1.jpg">
+
+    <title>Matthew's Webpage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Starter Template for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./Starter Template for Bootstrap_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Starter Template for Bootstrap_files/starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./Starter Template for Bootstrap_files/ie-emulation-modes-warning.js.download"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="projectName.html">?</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+		    <li><a href="home.html">Home</a></li>
+			<li class="active"><a href="about.html">About</a></li>
+		    <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+	
+      <div class="starter-template">
+		
+		<div class="jumbotron">
+		    <h1>About</h1>
+			<a><img src="Picture with President Moore.jpg" alt="Music Involvement" style="width:300px;height:400px;border:100;" align="middle">
+			</a>
+			<h2><font size="4"><strong>Bibliography</strong></font></h2>
+			<p class="lead"><font size="2">Matthew Swanson is a sophomore at Buena Vista University, pursuing a degree in Computer Science. He stays involved on campus with concert band, jazz band, Associations for Computing Machinery Club, and his job as a Student Technical Assistant (STA) at the Information Technology Helpdesk (“2Fix”). He also assists with marching band instruction and direction at Alta-Aurelia, which is his former high school. While at Alta-Aurelia, Matthew was a member of the state-qualifying high school jazz band from 7th through 12th grade. He played auxiliary percussion his 7th grade year, and continued performing as the only jazz drummer throughout his middle and high school career. As a sophomore he was named one of four “Outstanding Performers” in all of class 2A at the Iowa Jazz Championships. Not only did he receive his own achievement individually, the Alta-Aurelia Jazz Band also placed first at the state level three years in a row. Matthew achieved success in several activities while in high school, and his current college involvement has given him additional recognition as well. While at Buena Vista University, Matthew has been named “STA of the Month” at 2Fix, won the university’s Computer Security Contest’s second tier, been a member of the Dean’s List, named “Freshman of the Year” by receiving the “Vivian and Paul McCorkle Freshman and Leadership Potential Award” last year, and was one of four students selected as the recipient of the Principal Financial Group Technology Scholarship from all private colleges in Iowa. Matthew continues striving for his best as he aims for excellence in the classroom, at his job, and throughout various activities.</font></p>
+			
+		</div>
+		
+		<style>
+			.button {
+			  border-radius: 4px;
+			  background-color: #00004C;
+			  border: none;
+			  color: #FFFF00;
+			  text-align: center;
+			  font-size: 28px;
+			  padding: 20px;
+			  width: 200px;
+			  transition: all 0.5s;
+			  cursor: pointer;
+			  margin: 5px;
+			}
+
+			.button span {
+			  cursor: pointer;
+			  display: inline-block;
+			  position: relative;
+			  transition: 0.5s;
+			}
+
+			.button span:after {
+			  content: '\00bb';
+			  position: absolute;
+			  opacity: 0;
+			  top: 0;
+			  right: -20px;
+			  transition: 0.7s;
+			}
+
+			.button:hover span {
+			  padding-right: 25px;
+			}
+
+			.button:hover span:after {
+			  opacity: 1;
+			  right: 0;
+			}
+		</style>
+		
+		<button class="button" onclick="currResume()"><span>Resume</span></button>
+		
+		<button class="button" onclick="currPortfolio()"><span>Portfolio</span></button>
+		
+		<br></br>
+		
+	  </div>
+	  
+    </div>
+	
+	<!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+	<script>
+	function currResume() {
+		window.open("SwanMat-current.pdf");
+	}
+	function currPortfolio() {
+		window.open("Portfolio.zip")}
+	</script>
+    <script src="./Starter Template for Bootstrap_files/jquery.min.js.download"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./Starter Template for Bootstrap_files/bootstrap.min.js.download"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./Starter Template for Bootstrap_files/ie10-viewport-bug-workaround.js.download"></script>
+  
+
+</body></html>
